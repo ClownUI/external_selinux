@@ -36,6 +36,7 @@ LIBSELINUX_R {
     selinux_check_access; # llndk systemapi
     selinux_log_callback; # llndk systemapi
     selinux_set_callback; # llndk systemapi
+    selinux_status_getenforce; # llndk systemapi
     selinux_status_open; # llndk systemapi
     selinux_status_updated; # llndk systemapi
     selinux_vendor_log_callback; # llndk systemapi
